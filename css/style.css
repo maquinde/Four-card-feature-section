@@ -22,11 +22,12 @@ GLOBAL STYLES
 body {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
+    background: var(--very-light-gray);
 }
 
 
 /* ===============================================
-HEADER
+HEADER - 23:11
 ================================================== */
 
 
