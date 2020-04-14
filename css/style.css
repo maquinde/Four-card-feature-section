@@ -27,8 +27,40 @@ body {
 
 
 /* ===============================================
-HEADER - 23:11
+HEADER
 ================================================== */
+header {
+    margin: 50px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-size: 2.3rem;
+    color: var(--very-dark-blue);
+}
+
+header h2 {
+    font-weight: 600;
+    font-size: 2.3rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--very-dark-blue);
+}
+
+header p {
+    color: var(--grayish-blue);
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+/* ===============================================
+BOXES
+================================================== */
+
 
 
 
@@ -44,8 +76,10 @@ HEADER - 23:11
 
 
 /* ===============================================
-BOXES
+MAIN LAYOUT
 ================================================== */
+
+
 
 
 
