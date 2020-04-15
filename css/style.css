@@ -56,9 +56,8 @@ header p {
     line-height: 25px;
 }
 
-
 /* ===============================================
-BOXES - 37:13
+MAIN LAYOUT
 ================================================== */
 .container {
     display: flex;
@@ -68,6 +67,10 @@ BOXES - 37:13
     max-width: 1350px;
 }
 
+
+/* ===============================================
+BOXES - 45:00
+================================================== */
 .box {
     background: white;
     border-radius: 5px;
@@ -75,6 +78,53 @@ BOXES - 37:13
     padding: 30px;
     margin: 15px;
     width: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box::after {
+    content: "";
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.red::after {
+    background: var(--red);
+}
+
+.cyan::after {
+    background: var(--cyan);
+}
+
+.orange::after {
+    background: var(--orange);
+}
+
+.blue::after {
+    background: var(--blue);
+}
+
+.box h2 {
+    margin: 0;
+}
+
+.box img {
+    display: block;
+    margin-left: auto;
+}
+
+
+
+
+
+
+.box p {
+    color: var(--grayish-blue);
+    font-size: 14px;
+    margin: 15px 0 30px;
 }
 
 
@@ -90,9 +140,7 @@ BOXES - 37:13
 
 
 
-/* ===============================================
-MAIN LAYOUT
-================================================== */
+
 
 
 
